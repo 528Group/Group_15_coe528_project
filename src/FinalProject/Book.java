@@ -14,7 +14,7 @@ public class Book {
     private String name;
     private double price;
     
-    private Book(String name, double price) {
+    public Book(String name, double price) {
         this.name = name;
         this.price = price;
 
